@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9930BB8A2073D6CC00935FE7 /* RegionsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930BB892073D6CC00935FE7 /* RegionsListViewModel.swift */; };
+		9930BB912073DE0300935FE7 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930BB902073DE0300935FE7 /* UITableViewExtension.swift */; };
+		9930BB942073E29D00935FE7 /* BanksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930BB932073E29D00935FE7 /* BanksListViewController.swift */; };
+		9930BB962073E3D000935FE7 /* BanksListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930BB952073E3D000935FE7 /* BanksListViewModel.swift */; };
+		9930BBA32075472000935FE7 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930BBA22075472000935FE7 /* Country.swift */; };
+		997BD14E20775E36009C507B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 997BD14C20775E36009C507B /* Model.xcdatamodeld */; };
+		997BD185207792B0009C507B /* BankEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BD181207792B0009C507B /* BankEntity+CoreDataClass.swift */; };
+		997BD186207792B0009C507B /* BankEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BD182207792B0009C507B /* BankEntity+CoreDataProperties.swift */; };
+		997BD187207792B0009C507B /* BankListEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BD183207792B0009C507B /* BankListEntity+CoreDataClass.swift */; };
+		997BD188207792B0009C507B /* BankListEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BD184207792B0009C507B /* BankListEntity+CoreDataProperties.swift */; };
+		997C59DA20763D65009751A8 /* BankDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C59D920763D65009751A8 /* BankDetailedViewController.swift */; };
+		997C59DF2076438C009751A8 /* BankDetailedTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C59DE2076438C009751A8 /* BankDetailedTableCell.swift */; };
+		997C59E120764C88009751A8 /* BankType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997C59E020764C88009751A8 /* BankType.swift */; };
 		99C3457C2073D0BC00B585B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C3457B2073D0BC00B585B7 /* AppDelegate.swift */; };
-		99C3457E2073D0BC00B585B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C3457D2073D0BC00B585B7 /* ViewController.swift */; };
-		99C345812073D0BC00B585B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C3457F2073D0BC00B585B7 /* Main.storyboard */; };
 		99C345832073D0BC00B585B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C345822073D0BC00B585B7 /* Assets.xcassets */; };
 		99C345862073D0BC00B585B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C345842073D0BC00B585B7 /* LaunchScreen.storyboard */; };
+		99C345942073D1A500B585B7 /* BankService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C345932073D1A500B585B7 /* BankService.swift */; };
+		99C345962073D1B600B585B7 /* RegionsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C345952073D1B600B585B7 /* RegionsListViewController.swift */; };
+		99C345992073D2B400B585B7 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C345982073D2B400B585B7 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9930BB892073D6CC00935FE7 /* RegionsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsListViewModel.swift; sourceTree = "<group>"; };
+		9930BB902073DE0300935FE7 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		9930BB932073E29D00935FE7 /* BanksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanksListViewController.swift; sourceTree = "<group>"; };
+		9930BB952073E3D000935FE7 /* BanksListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanksListViewModel.swift; sourceTree = "<group>"; };
+		9930BBA22075472000935FE7 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		997BD14D20775E36009C507B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		997BD181207792B0009C507B /* BankEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BankEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		997BD182207792B0009C507B /* BankEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BankEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		997BD183207792B0009C507B /* BankListEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BankListEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		997BD184207792B0009C507B /* BankListEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BankListEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		997C59D920763D65009751A8 /* BankDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailedViewController.swift; sourceTree = "<group>"; };
+		997C59DE2076438C009751A8 /* BankDetailedTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDetailedTableCell.swift; sourceTree = "<group>"; };
+		997C59E020764C88009751A8 /* BankType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankType.swift; sourceTree = "<group>"; };
 		99C345782073D0BC00B585B7 /* BankApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C3457B2073D0BC00B585B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		99C3457D2073D0BC00B585B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		99C345802073D0BC00B585B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99C345822073D0BC00B585B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C345852073D0BC00B585B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99C345872073D0BC00B585B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C345932073D1A500B585B7 /* BankService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankService.swift; sourceTree = "<group>"; };
+		99C345952073D1B600B585B7 /* RegionsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsListViewController.swift; sourceTree = "<group>"; };
+		99C345982073D2B400B585B7 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +63,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9930BB922073E24600935FE7 /* BanksList */ = {
+			isa = PBXGroup;
+			children = (
+				9930BB932073E29D00935FE7 /* BanksListViewController.swift */,
+				9930BB952073E3D000935FE7 /* BanksListViewModel.swift */,
+			);
+			path = BanksList;
+			sourceTree = "<group>";
+		};
+		997BD14B20775E1B009C507B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				997BD181207792B0009C507B /* BankEntity+CoreDataClass.swift */,
+				997BD182207792B0009C507B /* BankEntity+CoreDataProperties.swift */,
+				997BD183207792B0009C507B /* BankListEntity+CoreDataClass.swift */,
+				997BD184207792B0009C507B /* BankListEntity+CoreDataProperties.swift */,
+				997BD14C20775E36009C507B /* Model.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		997C59D820763D44009751A8 /* BankDetailed */ = {
+			isa = PBXGroup;
+			children = (
+				997C59D920763D65009751A8 /* BankDetailedViewController.swift */,
+				997C59DE2076438C009751A8 /* BankDetailedTableCell.swift */,
+			);
+			path = BankDetailed;
+			sourceTree = "<group>";
+		};
 		99C3456F2073D0BC00B585B7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +112,78 @@
 		99C3457A2073D0BC00B585B7 /* BankApp */ = {
 			isa = PBXGroup;
 			children = (
+				99C345902073D0F800B585B7 /* Views */,
+				99C3458D2073D0C600B585B7 /* Shared */,
+				99C3458F2073D0DD00B585B7 /* SupportingFiles */,
+			);
+			path = BankApp;
+			sourceTree = "<group>";
+		};
+		99C3458D2073D0C600B585B7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				997BD14B20775E1B009C507B /* CoreData */,
+				99C345972073D28400B585B7 /* Extensions */,
+				99C345922073D19300B585B7 /* Services */,
+				99C3458E2073D0CF00B585B7 /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		99C3458E2073D0CF00B585B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9930BBA22075472000935FE7 /* Country.swift */,
+				997C59E020764C88009751A8 /* BankType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		99C3458F2073D0DD00B585B7 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				99C3457B2073D0BC00B585B7 /* AppDelegate.swift */,
-				99C3457D2073D0BC00B585B7 /* ViewController.swift */,
-				99C3457F2073D0BC00B585B7 /* Main.storyboard */,
 				99C345822073D0BC00B585B7 /* Assets.xcassets */,
 				99C345842073D0BC00B585B7 /* LaunchScreen.storyboard */,
 				99C345872073D0BC00B585B7 /* Info.plist */,
 			);
-			path = BankApp;
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		99C345902073D0F800B585B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99C345912073D10200B585B7 /* RegionsList */,
+				9930BB922073E24600935FE7 /* BanksList */,
+				997C59D820763D44009751A8 /* BankDetailed */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99C345912073D10200B585B7 /* RegionsList */ = {
+			isa = PBXGroup;
+			children = (
+				99C345952073D1B600B585B7 /* RegionsListViewController.swift */,
+				9930BB892073D6CC00935FE7 /* RegionsListViewModel.swift */,
+			);
+			path = RegionsList;
+			sourceTree = "<group>";
+		};
+		99C345922073D19300B585B7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				99C345932073D1A500B585B7 /* BankService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		99C345972073D28400B585B7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99C345982073D2B400B585B7 /* UIViewExtension.swift */,
+				9930BB902073DE0300935FE7 /* UITableViewExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +247,6 @@
 			files = (
 				99C345862073D0BC00B585B7 /* LaunchScreen.storyboard in Resources */,
 				99C345832073D0BC00B585B7 /* Assets.xcassets in Resources */,
-				99C345812073D0BC00B585B7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +257,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C3457E2073D0BC00B585B7 /* ViewController.swift in Sources */,
+				99C345962073D1B600B585B7 /* RegionsListViewController.swift in Sources */,
 				99C3457C2073D0BC00B585B7 /* AppDelegate.swift in Sources */,
+				997BD14E20775E36009C507B /* Model.xcdatamodeld in Sources */,
+				9930BB942073E29D00935FE7 /* BanksListViewController.swift in Sources */,
+				99C345992073D2B400B585B7 /* UIViewExtension.swift in Sources */,
+				997C59DA20763D65009751A8 /* BankDetailedViewController.swift in Sources */,
+				997BD185207792B0009C507B /* BankEntity+CoreDataClass.swift in Sources */,
+				997BD188207792B0009C507B /* BankListEntity+CoreDataProperties.swift in Sources */,
+				997BD187207792B0009C507B /* BankListEntity+CoreDataClass.swift in Sources */,
+				997C59DF2076438C009751A8 /* BankDetailedTableCell.swift in Sources */,
+				9930BB8A2073D6CC00935FE7 /* RegionsListViewModel.swift in Sources */,
+				997BD186207792B0009C507B /* BankEntity+CoreDataProperties.swift in Sources */,
+				99C345942073D1A500B585B7 /* BankService.swift in Sources */,
+				997C59E120764C88009751A8 /* BankType.swift in Sources */,
+				9930BB912073DE0300935FE7 /* UITableViewExtension.swift in Sources */,
+				9930BBA32075472000935FE7 /* Country.swift in Sources */,
+				9930BB962073E3D000935FE7 /* BanksListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		99C3457F2073D0BC00B585B7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				99C345802073D0BC00B585B7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		99C345842073D0BC00B585B7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,9 +403,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A6ASRT85UE;
+				DEVELOPMENT_TEAM = 38X88WBX84;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = BankApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = VPTeam.BankApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -290,9 +421,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A6ASRT85UE;
+				DEVELOPMENT_TEAM = 38X88WBX84;
 				INFOPLIST_FILE = BankApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = VPTeam.BankApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -322,6 +455,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		997BD14C20775E36009C507B /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				997BD14D20775E36009C507B /* Model.xcdatamodel */,
+			);
+			currentVersion = 997BD14D20775E36009C507B /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 99C345702073D0BC00B585B7 /* Project object */;
 }

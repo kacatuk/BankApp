@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D102" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BankEntity" representedClassName="BankEntity" syncable="YES">
+        <attribute name="address" attributeType="String" syncable="YES"/>
+        <attribute name="availability" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="region" attributeType="String" syncable="YES"/>
+        <attribute name="typeIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="BankListEntity" representedClassName="BankListEntity" syncable="YES">
+        <attribute name="country" attributeType="String" syncable="YES"/>
+        <relationship name="banksEntity" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="BankEntity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BankEntity" positionX="142" positionY="-18" width="128" height="135"/>
+        <element name="BankListEntity" positionX="162" positionY="0" width="128" height="75"/>
+    </elements>
+</model>
